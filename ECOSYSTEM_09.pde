@@ -25,6 +25,8 @@ void draw() {
   smooth();
   
   p.display();
+  p.update();
+  p.checkEdges();
   f.display();
   
   for (int i=0; i < b.length; i++) {
